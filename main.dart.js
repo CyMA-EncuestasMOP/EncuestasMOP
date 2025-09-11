@@ -94566,21 +94566,22 @@ b=A.cB(b,b.gbS().bL("Encuestas")).cH(c.a.c).bL("Usuarios").cH(c.a.f)
 o=f?"ENVIADA":"GUARDADA"
 o=A.Wf(A.aC(["answer",g,"status",o,"date",new A.bB(Date.now(),0,!1),"idencuesta",c.a.c],t.K,t.X))
 o.toString
-b.a.c5(0,o)
-s=f?13:14
+s=13
+return A.t(b.a.c5(0,o),$async$$0)
+case 13:s=f?14:15
 break
-case 13:b=c.z,o=b.length,l=0
-case 15:if(!(l<b.length)){s=17
+case 14:b=c.z,o=b.length,l=0
+case 16:if(!(l<b.length)){s=18
 break}i=b[l]
 n=c.a
-s=18
+s=19
 return A.t(A.b6_(A.i9("https://script.google.com/macros/s/AKfycbwl1b-qt61HCxZG2QtLYNsqvmAgVQ6NRUmEGbV0SQQaL4Hl6Yh3pwF2WpNkk-EJrAlq/exec"+("?idencuesta="+n.c+"&idusuario="+n.f+"&proyecto="+A.j(i.h(0,"project"))+"&actividad="+A.j(i.h(0,"activity"))+"&horas="+A.j(i.h(0,"hours"))+"&fecha="+new A.bB(Date.now(),0,!1).k(0)))),$async$$0)
-case 18:d=a1
+case 19:d=a1
 if(d.b===200)A.aJg(A.j(B.d5.Iq(0,A.aRd(A.aQ4(d.e).c.a.h(0,"charset")).h0(0,d.w),null)))
-case 16:b.length===o||(0,A.M)(b),++l
-s=15
+case 17:b.length===o||(0,A.M)(b),++l
+s=16
 break
-case 17:case 14:b=p.b
+case 18:case 15:b=p.b
 o=b.Y(t.q)
 o.toString
 o.f.d_(A.cT(null,null,null,null,null,B.q,null,A.W(f?"Encuesta enviada exitosamente.":"Encuesta guardada exitosamente.",null,null,null,null,null,null),null,A.bR(0,0,0,0,4),null,null,null,null,null,null,null,null,null))

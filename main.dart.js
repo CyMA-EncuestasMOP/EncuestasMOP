@@ -94471,8 +94471,7 @@ h=A.aD(b,10,b)
 g=s.db||s.a.w==="ENVIADA"?b:s.gal8()
 g=A.fB(A.W("AGREGAR ELEMENTO",b,b,b,b,b,b),g,b)
 f=A.aD(b,20,b)
-e=s.a.w
-e=A.oS(A.cN(A.a([A.bu(A.fB(A.W("AGREGAR NUEVO PROYECTO",b,b,b,b,b,b),new A.avP(s,a0),b),1),A.aD(b,b,20),A.bu(A.fB(A.W("AGREGAR NUEVA ACTIVIDAD",b,b,b,b,b,b),new A.avQ(s,a0),b),1)],r),B.z,B.cS,B.y),e!=="ENVIADA")
+e=A.oS(A.cN(A.a([A.bu(A.fB(A.W("AGREGAR NUEVO PROYECTO",b,b,b,b,b,b),new A.avP(s,a0),b),1),A.aD(b,b,20),A.bu(A.fB(A.W("AGREGAR NUEVA ACTIVIDAD",b,b,b,b,b,b),new A.avQ(s,a0),b),1)],r),B.z,B.cS,B.y),!1)
 d=A.aD(b,20,b)
 c=s.a.w==="ENVIADA"||s.dx?b:new A.avR(s,a0)
 return A.cJ(A.a([q,p,o,n,m,l,k,j,i,h,g,f,e,d,A.fB(A.W(s.ay?a:"GUARDAR ENCUESTA",b,b,b,b,b,b),c,b)],r),B.bn,B.A,B.y)}}},

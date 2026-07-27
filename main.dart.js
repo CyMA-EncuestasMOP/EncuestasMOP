@@ -28743,7 +28743,7 @@ s=d?c:r
 return A.kI(A.aIb(r,new A.nB(A.aZ4(p,A.a_(B.b.p(b,e)?e:B.b.gO(b),r,r,r,r,r,r),n,s,o,t.N),r),q,!1,!1,!1,!1,r,r),!d,r)},
 Ka(a,b,c){var s=null
 b.N(0,new A.aF8(b))
-return A.aI(A.rW(!0,!1,b,A.fK(s,new A.d9(4,B.aR,B.b8),s,new A.am(16,12,16,12),s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,a,s,s,s,s,s,s,s,s,s,s,s,s,s),!0,s,s,s,s,!1,s,s,s,s,c,s,s),s,600)},
+return A.aI(A.rW(!0,!1,b,A.fK(s,new A.d9(4,B.aR,B.b8),s,new A.am(16,12,16,12),s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,a,s,s,s,s,s,s,s,s,s,s,s,s,s),!0,s,s,s,s,!1,s,s,s,s,!1,s,s),s,600)},
 aK2(a,b,c){var s=null
 b.N(0,new A.aF7(b))
 return A.aI(A.rW(!0,!1,b,A.fK(s,new A.d9(4,B.aR,B.b8),s,new A.am(16,12,16,12),s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,a,s,s,s,s,s,s,s,s,s,s,s,s,s),!0,s,s,s,s,!1,s,s,s,s,c,s,s),s,600)},
@@ -94723,7 +94723,7 @@ r===$&&A.b()
 n=A.a([$.aKL()],t.VS)
 n=A.bP(A.aI(A.rW(!0,!1,r,A.fK(b,new A.d9(4,B.aR,B.b8),b,new A.am(16,12,16,12),b,b,b,b,!0,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,"D\xcdAS H\xc1BILES",b,b,b,b,b,b,b,b,b,b,b,b,b),!0,b,b,n,B.H0,!1,new A.aqw(c),b,b,b,!1,b,b),b,600),1)
 r=A.aI(b,b,10)
-m=A.bP(A.Ka("HORAS ESPERADAS",c.ay,!0),1)
+m=A.bP(A.Ka("HORAS ESPERADAS",c.ay,!1),1)
 l=A.aI(b,b,10)
 k=c.ch
 j=c.as
@@ -94986,7 +94986,7 @@ q.ch=p?A.a(["ACTIVA","CERRADA"],s):A.a(["CREADA","ACTIVA","CERRADA"],s)
 p=q.a.w
 p=p==="ACTIVA"||p==="CERRADA"
 q.Q=p
-r=A.eS(q.r.a.a,null)*9-1
+r=A.eS(q.r.a.a,null)*9-3
 q.ay.sbJ(0,B.e.k(r<0?0:r))},
 $S:0}
 A.aqD.prototype={
@@ -95043,7 +95043,7 @@ A.aqm.prototype={
 $1(a){return a},
 $S:245}
 A.aqw.prototype={
-$1(a){var s=A.eS(a,null)*9-1
+$1(a){var s=A.eS(a,null)*9-3
 this.a.ay.sbJ(0,B.e.k(s<0?0:s))},
 $S:37}
 A.aqx.prototype={
